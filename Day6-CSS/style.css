@@ -1,0 +1,13 @@
+div{
+    background-color: burlywood;
+    text-align: center;
+    color: blue;
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px blue;
+}
+
+h1{
+    font-family: cursive;
+    color: red;
+}
