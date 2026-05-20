@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: antiquewhite;
+            display: flex;
+        }
+
+        .product{
+            border: 5px solid brown;
+            background-color: blueviolet;
+            width: 300px;
+            overflow: hidden;
+            text-align: center;
+            margin: 30px;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 12px black;
+            background-color: white;
+        }
+
+        .product img{
+            object-fit: cover;
+            height: 300px;
+            width: 100%;
+        }
+
+        button{
+            background-color: orange;
+            padding: 15px;
+            border: none;
+            border-radius: 15px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .product:hover{
+            transform: scaleX(1.03);
+            transition: 2s ease-in-out;
+            background-color: gainsboro;
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="product">
+        <img src="https://images.pexels.com/photos/5337378/pexels-photo-5337378.jpeg">
+        <h2>Mobile</h2>
+        <p>$50</p>
+        <button>Add To Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://media.istockphoto.com/id/1303978937/photo/white-sneaker-on-a-blue-gradient-background-mens-fashion-sport-shoe-sneakers-lifestyle.jpg?b=1&s=612x612&w=0&k=20&c=cNLaucibZy5Vq4r7dOCt9CNam6lejW3Zxw0Vho_z0mo=">
+        <h2>Shoes</h2>
+        <p>$20</p>
+        <button>Add To Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://images.pexels.com/photos/7054718/pexels-photo-7054718.jpeg">
+        <h2>Headphone</h2>
+        <p>$15</p>
+        <button>Add To Cart</button>
+    </div>
+    
+</body>
+</html>
