@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        //Data Type- Types of Data
+
+        //1. string
+        var customername = "John"
+
+        console.log(typeof(customername))
+
+        //2. Number
+        var age = 20
+
+        console.log(typeof(age))
+
+        //3. Boolean value
+        var LoggedIn = true
+
+        var NetflixSub = "false"
+
+        console.log(typeof(LoggedIn))
+
+        console.log(typeof(NetflixSub))
+
+        //4. Null 
+        var a = 0
+        console.log(typeof(a))
+
+
+    //Note : Due to the Bug in js Data type of Null shows Object as Output 
+    
+
+    //undefined - when No value is assinged
+    var b
+    console.log(typeof(b))
+
+
+    //DataType 2 -
+
+    //Array - To Store Multiple of data of Different Data Types as well, at the same thing
+    //Symbol - [ ] Squre Bracket
+    //Rule - Index No Start with 0
+
+    var students = [ "John" , "Bob" , "Charlie" , "true" , 124]
+    console.log(students)
+
+    //Access the data ArrayName [IndexNo]
+    console.log(students[1])
+    console.log(students[4])
+
+    //Object - Collection of data
+    //Symbol - { } curly Bracket
+    //Rule - (left)key:value(right) pair
+
+    var employee = {
+        //key:value
+        name:"Rasika" ,
+        email:"rasika@gmail.com" ,
+        id:1012 ,
+        working:true
+    }
+
+    //Access the value  in object by using keyname
+    console.log(employee)
+
+    console.log(employee.id)
+
+    //Functions - To Do A Task
+    // keyword - function
+    //Symbol - ()
+    //Task : Buiild BillCalucltor
+
+    function BillCalulator() {
+        //Body of Function - Instruction
+
+        var product1 = "Milk"
+        var product2 = "Bread"
+
+        var price1 = 50
+        var price2 = 100
+
+        var TotalBill = price1 + price2;
+
+        console.log("The  Total Bill is " , TotalBill);
+
+
+    }
+
+    BillCalulator()
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
