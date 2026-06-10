@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+    //Task : Draw a DICE and Guess
+
+    let luckyNo = Math.floor(Math.random()*6)+1
+    //console.log(luckyNo)
+
+    while(true){
+
+      guess =   prompt('Enter Number Between 1 To 6')
+       
+      if(luckyNo == guess){
+        alert('You Won')
+        break;
+      }else{
+        alert('Better Luck Next Time')
+      }
+            
+    }
+
+     
+    </script>
+    
+</body>
+</html>
