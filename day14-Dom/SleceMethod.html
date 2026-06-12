@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p id="myp">This is a paragraph.</p>
+
+    <div class="myc">This is Div - 0</div>
+    <div class="myc">This is Div - 1</div>
+
+    <p>This is paragraph - 1</p>
+    <p>This is paragraph - 2</p>
+
+    <div class="box">HTML</div>
+    <div class="box">JavaScript</div>
+
+    <script>
+    //Select Element/Tag From HTML
+
+    //1.getElementById()
+    //document - webpage is js.
+    //textContent - Content of Tag
+
+        const ele =  document.getElementsById("myp")
+        console.log(ele)
+        console.log(ele.textContent)
+
+     //2. className
+        const abc = document.getElementsByIdclassName("myc")
+        console.log(abc)  
+        console.log(abc[1].textContent)
+        
+    //3. TagName("Value")  
+        const xyz = document.getElementsByTagName("p")
+        console.log(xyz)
+        
+    //4. QuerySelector() - Fpllows The Rule of CSS Selector - .class , #Id , TagName 
+    //   Only Select the First Element - 1 Tag   
+         const pqr = document.querySelector(".box")
+         console.log(pqr)
+
+    //5. QuerySelectAll() - All the Elements/Tag
+
+        const mnp = document.querySelector(".box")
+        console.log(mnp)
+
+
+
+    </script>
+</body>
+</html>
